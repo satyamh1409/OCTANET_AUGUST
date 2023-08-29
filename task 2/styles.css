@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .categories,
+  .task-form {
+    margin-bottom: 10px;
+  }
+  
+  .categories label,
+  .task-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .categories select,
+  .task-form select,
+  .task-form input[type="text"],
+  .task-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  #add-task {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .task-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .high-priority {
+    background-color: #ff5c5c;
+  }
+  
+  .medium-priority {
+    background-color: #ffc94c;
+  }
+  
+  .low-priority {
+    background-color: #a0d468;
+  }
+  
+  .design-category {
+    border-color: #007bff;
+  }
+  
+  .development-category {
+    border-color: #47a447;
+  }
+  
+  .content-category {
+    border-color: #d9534f;
+  }
+  
